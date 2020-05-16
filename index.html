@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STONKSPROJECT</title>
+    <link rel="stylesheet" type="text/css" href="_css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/e3a30846b6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="conteudo primeiro-conteudo">
+            <div class="primeira-coluna">
+                <h2 class="title primeiro-titulo">Bem-vindo de volta!</h2>
+                <p class="description primeira-descr">Estamos animados em te ver novamente</p>
+                <p class="description primeira-descr">Entre com suas informações pessoais</p>
+                <button id="signin" class="btn primeiro-btn">entrar</button>
+            </div>
+            <div class="segunda-coluna">
+                <h2 class="title segundo-titulo">Criar Conta</h2>
+                <div class="social-media">
+                    <ul class="list-social-media">
+                        <a class="link-social-media" href="#">
+                            <li class="item-social-media">
+                                <i class="fab fa-facebook-f"></i>
+                            </li>
+                        </a>
+                        <a class="link-social-media" href="#">
+                            <li class="item-social-media">
+                                <i class="fab fa-google-plus-g"></i>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+                <p class="description segunda-descr">ou use seu e-mail para registro:</p>
+                <form class="form">
+                    <label class="label-input" for="">
+                        <i class="far fa-user icon-modify"></i>
+                        <input type="text" placeholder="Nome" id="nomeR">
+                    </label>
+                    <label class="label-input" for="">
+                        <i class="far fa-envelope icon-modify"></i>
+                        <input type="email" placeholder="E-mail" id="emailR">
+                    </label>
+                    <label class="label-input" for="">
+                        <i class="fas fa-lock icon-modify"></i>
+                        <input type="password" placeholder="Senha" id="senhaR">
+                    </label>
+                    <button  type="button" onclick="registra()" class="btn segundo-btn">registrar</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="conteudo segundo-conteudo">
+            <div class="primeira-coluna">
+                <h2 class="title primeiro-titulo">Olá, Amigo!</h2>
+                <p class="description primeira-descr">Insira seus dados pessoais</p>
+                <p class="description primeira-descr">e comece a jornada conosco</p>
+                <button id="signup" class="btn primeiro-btn">registrar</button>
+            </div>
+            <div class="segunda-coluna">
+                <h2 class="title segundo-titulo">Entrar</h2>
+                <div class="social-media">
+                    <ul class="list-social-media">
+                        <a class="link-social-media" href="#">
+                            <li class="item-social-media">
+                                <i class="fab fa-facebook-f"></i>
+                            </li>
+                        </a>
+                        <a class="link-social-media" href="#">
+                            <li class="item-social-media">
+                                <i class="fab fa-google-plus-g"></i>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+                <p class="description segunda-descr">ou use sua conta de E-mail</p>
+                <form class="form">
+
+                    <label class="label-input" for="">
+                        <i class="far fa-envelope icon-modify"></i>
+                        <input type="email" placeholder="E-mail" id="email">
+                    </label>
+                    <label class="label-input" for="">
+                        <i class="fas fa-lock icon-modify"></i>
+                        <input type="password" placeholder="Senha" id="senha">
+                    </label>
+                    <a class="password" href="#">Esqueceu sua senha?</a>
+                    <button class="btn segundo-btn" type="button" onclick="entrar()">Entrar</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+<script src="_js/JavaScritp.js"></script>
+</body>
+
+</html>
