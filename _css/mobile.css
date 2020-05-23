@@ -1,0 +1,138 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.titulo-login, .titulo-register, .descr-login, .descr-register, .btn-login,  .conteudo::before, .btn-login, #singnup, #singnin {
+    display: none;
+} 
+div.conteudo {
+    background-color:#ff5388 ;
+    width: 95%;
+    height: 95%;                          
+}
+div.segunda-coluna-account{
+    background-color: transparent;
+    position: relative;
+    width: 95%;
+    height: 52%;
+    z-index: 11;
+}
+div.segunda-coluna-new-account{
+    background-color: transparent;
+    position: relative;
+    border-radius: 15px;
+    width: 400%;
+    height: 48%;
+    z-index: 1;
+}
+div.segunda-coluna-account, .form-login{
+    background-color: #ff5388;
+        
+}
+div.segunda-coluna-new-account{
+    background-color: #ff5388;
+    
+}
+.titulo-account, .titulo-new-account{
+    color: #eeaacc;
+}
+.fas, .far, .fab, ::placeholder, .item-social-media-new-account {
+    color: #eeaacc;
+}
+
+.link-social-media-new-account:hover .item-social-media-new-account{
+    background-color:transparent;
+    color: #eeaacc;
+    border-color:white;
+}
+.link-social-media-account:hover .item-social-media-account{
+    background-color: transparent;
+    color: #eeaacc;
+    border-color:white;
+}
+.password, .segunda-descr{
+    color:#eeaacc;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold
+}
+.label-input-login,  #email, #senha, .label-input-register, #nomeR, #emailR, #senhaR {
+    color: #eeaacc;
+    background-color: transparent;
+    text-transform: uppercase;
+    display: inline-flex;
+}
+.label-input-login{
+    border-bottom: 1px solid #eeaacc; 
+}
+.label-input-register{
+    border-bottom: 1px solid #eeaacc; 
+}
+.label-input-register{
+    color: #eeaacc;
+    background-color: transparent;
+    display: inline-flex;
+}
+.label-input-register{
+    border-bottom: 1px solid #eeaacc; 
+}    
+.segunda-coluna-new-account, .form-register{
+    width: 71%;
+}
+.segunda-coluna-account, .form-login{
+    width: 180%;
+}
+.segunda-coluna-account{
+    position: relative;
+    margin-left: 30%;
+    bottom: 50px;
+}
+.segunda-coluna-new-account{
+    position: relative;
+    margin-left: -10%;
+    bottom: 40px;
+}
+.btn-register{
+    color: #eeaacc;
+    align-items: center;
+    border: none;
+    position: relative;
+    right: 100px;
+    top: 78px;
+}
+.segundo-btn-register{
+    right: 0px;
+    top: -18px;
+}
+.btn-register:hover{
+    background-color: transparent;
+    color: #eeaacc;
+}
+
+.segundo-btn-login{  
+    position: relative;
+    background-color:#ff5388;
+    color: #eeaacc;
+    border: 1px solid #eeaacc;
+    transition: background-color .5s; 
+    left: -80px;
+    bottom: 0px;  
+}
+.segundo-btn-login:hover{
+    background-color: white;
+    border: 1px solid #eeaacc;
+    color: #ff5388;
+}
+.segundo-btn-register {
+    position: relative;
+    background-color: #eeaacc;
+    border: 1px solid #eeaacc;
+    transition: background-color .5s; 
+}
+.segundo-btn-register:hover{
+    background-color: white;
+    border: 1px solid #ff5388;
+    color: #ff5388;
+}
